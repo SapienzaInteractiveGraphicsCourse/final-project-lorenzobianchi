@@ -5,7 +5,7 @@ Lorenzo Bianchi, mat. 1756496
 
 Link to play: https://sapienzainteractivegraphicscourse.github.io/final-project-lorenzobianchi/
 
-#### Main commands:
+## Main commands:
 |Key | Action|
 |----|--------|
 |  A, D | Move Left/Right |
