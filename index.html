@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1,maximum-scale=1">
+		<title>Sonic Run</title>
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- Import font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+		<!-- Favicon -->
+
+		<link rel="icon" type="image/png" href="./assets/favicon/sonic_icon.png">
+		<link rel="manifest" href="./assets/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="./assets/favicon/sonic_icon.png">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body> 
+
+		<div id="loadings">
+
+			<div id="models_loading">
+				<div>
+				  <div>Loading Models</div>
+				  <div class="progress"><div id="models_progressbar"></div></div>
+				</div>
+			</div>
+	
+			<div id="sounds_loading">
+				<div>
+				  <div>Loading Sounds</div>
+				  <div class="progress"><div id="sounds_progressbar"></div></div>
+				</div>
+			</div>	
+			
+		</div>
+
+		<div id="container" hidden></div>
+
+		<div id="main_menu">
+			<img id="title" src="assets/images/title.png"  ></img>
+			<div id="difficulty">
+				<button id="text_diff";>Difficulty:</button>
+
+				<button id="easyButton"  onclick="easy()";>EASY</button>
+				<button id="normalButton" onclick="normal();">NORMAL</button>
+				<button id="hardButton" onclick="hard();">HARD</button>
+			</div>
+			<div>
+				<button id="text_theme";>Theme:</button>
+			</div>
+			<div id="theme">
+				<button id="countrysideButton" onclick="countryside();" autofocus></button>
+				<button id="cityButton" onclick="city();"></button>
+			</div>	
+			<div id="newGame" onclick="window.start();" onmouseover="this.style.backgroundColor = 'goldenrod'" onmouseout="this.style.backgroundColor = 'gold'">New Game</div>
+				
+			<script type="module">
+				import { startGame } from "./js/main.js";
+				window.start = startGame;
+			</script>
+			<script type="module">
+				import { cityTheme } from "./js/main.js";
+				window.city = cityTheme;
+			</script>
+			<script type="module">
+				import { countrysideTheme } from "./js/main.js";
+				window.countryside = countrysideTheme;
+			</script>
+			<script type="module">
+				import { easyMode } from "./js/main.js";
+				window.easy = easyMode;
+			</script>
+			<script type="module">
+				import { normalMode } from "./js/main.js";
+				window.normal = normalMode;
+			</script>
+			<script type="module">
+				import { hardMode } from "./js/main.js";
+				window.hard = hardMode;
+			</script>
+
+		</div>
+		
+		<div id="game_pause" hidden>
+			<h1>Game Paused</h1>
+			<p>Press <b>Esc</b> to resume.</p>
+		</div>
+
+		<div id="game_over" hidden>
+			<h1>GAME OVER</h1>
+			<p id="score"></p>
+			<p id="over">Press <b>ENTER</b> to go back to main menu</p>
+		</div>
+
+		<div id="scores_box" hidden>
+			<table>
+				<tr style="height:80px;">
+				  <td><img src="assets/images/sonic_icon.png" style=" margin-left:80%"></img></td>
+				  <td><h2 id="health"></h2></td>
+				</tr>
+				<tr style="height:80px">
+				  <td><img src="assets/images/ring3.png" style=" margin-left:80%"></img></td>
+				  <td><h2 id="rings"></h2></td>
+				</tr>
+				<tr style="height:90px">
+					<td><img src="assets/images/timer.png" style=" margin-left:80%"></img></td>
+					<td><h2 id="time"></h2></td>
+				  </tr>
+			  </table>
+		</div>
+
+		<script src="./js/libs/swiped-events.js"></script>
+		<script src="./js/main.js" type="module"></script>
+
+	</body>
+</html>

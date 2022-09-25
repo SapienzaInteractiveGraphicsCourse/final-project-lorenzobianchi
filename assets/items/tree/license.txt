@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tree 1 AO
+* source:	https://sketchfab.com/3d-models/tree-1-ao-620cc51c05f84a5981251a36c8dfa464
+* author:	Vladislav Laryushin (https://sketchfab.com/Zorg741)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tree 1 AO" (https://sketchfab.com/3d-models/tree-1-ao-620cc51c05f84a5981251a36c8dfa464) by Vladislav Laryushin (https://sketchfab.com/Zorg741) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

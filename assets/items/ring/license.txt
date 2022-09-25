@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sonic Mania Special Ring
+* source:	https://sketchfab.com/3d-models/sonic-mania-special-ring-b804e014917c4b36bbaa7a327d008a7c
+* author:	tailsplayfun (https://sketchfab.com/tailsplayfun)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sonic Mania Special Ring" (https://sketchfab.com/3d-models/sonic-mania-special-ring-b804e014917c4b36bbaa7a327d008a7c) by tailsplayfun (https://sketchfab.com/tailsplayfun) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

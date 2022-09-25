@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dungeon Spike Trap
+* source:	https://sketchfab.com/3d-models/dungeon-spike-trap-224e31561a694a1f93ae4915a205f5f0
+* author:	Vorg (https://sketchfab.com/darktps)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dungeon Spike Trap" (https://sketchfab.com/3d-models/dungeon-spike-trap-224e31561a694a1f93ae4915a205f5f0) by Vorg (https://sketchfab.com/darktps) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
