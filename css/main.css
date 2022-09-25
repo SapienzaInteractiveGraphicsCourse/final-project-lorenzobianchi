@@ -119,7 +119,7 @@ canvas {
   #main_menu {
     background-image: url('../assets/images/wallpaper3.jpg');
     background-repeat:no-repeat;
-    background-size: auto;
+    background-size: cover;
     height:100%;
     width:100%;
     /*border: 5px solid black; */
