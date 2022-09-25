@@ -240,7 +240,7 @@ canvas {
     border-radius: 7px;
     background-color: blue;
     color: black;
-    font-size: 30px;
+    font-size: 180%;
     font-weight: bold;
     font-family: "Courier New";
     width: 10%;
@@ -255,7 +255,7 @@ canvas {
     border-radius: 7px;
     background-color: blue;
     color: white;
-    font-size: 30px;
+    font-size: 180%;
     font-weight: bold;
     font-family: "Courier New";
     width: 10%;
@@ -270,7 +270,7 @@ canvas {
     border-radius: 7px;
     background-color: blue;
     color: black;
-    font-size: 30px;
+    font-size: 180%;
     font-weight: bold;
     font-family: "Courier New";
     width: 10%;
